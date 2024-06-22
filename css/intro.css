@@ -1,0 +1,25 @@
+.intro-bg {
+  background: url("../img/foto-intro.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.intro {
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.intro .titulo1 {
+  padding-bottom: 60px;
+  /* position: relative; */
+}
+
+.intro .texto1 {
+  background-color: var(--c1);
+  max-width: 26ch;
+  padding: 40px 80px 40px 260px;
+  /* position: absolute; */
+  /* right: 56.5%; */
+  position: relative;
+  left: -260px;
+}

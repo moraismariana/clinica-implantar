@@ -1,0 +1,8 @@
+@import "./global.css";
+@import "./header.css";
+@import "./intro.css";
+
+body {
+  background-color: #303030;
+  padding-bottom: 400px;
+}
