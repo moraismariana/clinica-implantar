@@ -1,0 +1,40 @@
+/* configs gerais */
+.servicos {
+  background-color: var(--w);
+  padding: 60px 80px;
+}
+
+.servicos .titulo2 {
+  margin-bottom: 32px;
+}
+
+.servicos .titulo3 {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.servicos .titulo3::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 6px;
+  background-color: #319ec4;
+}
+
+.servicos .texto2 {
+  margin-left: 44px;
+}
+
+/* slider */
+.servicos-slider {
+  display: grid;
+  overflow-x: auto;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 60px;
+}
+
+.servicos-slider-item {
+  width: 500px;
+}
