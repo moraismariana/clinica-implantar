@@ -1,5 +1,5 @@
 body {
-  background-color: #efefef;
+  background-color: var(--c4);
   padding-bottom: 400px;
 }
 
@@ -53,6 +53,7 @@ img {
   --c2: #434446;
   /* titulo3 */
   --c3: #686868;
+  --c4: #efefef;
 }
 
 .w {

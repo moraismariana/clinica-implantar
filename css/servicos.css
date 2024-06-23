@@ -5,7 +5,7 @@
 }
 
 .servicos .titulo2 {
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
 .servicos .titulo3 {
@@ -27,14 +27,82 @@
   margin-left: 44px;
 }
 
+.servicos-slider-item {
+  width: 480px;
+}
+
+/* botões slider */
+.servicos {
+  position: relative;
+}
+
+.servicos .slide-botao {
+  position: absolute;
+  top: 50%;
+  background-color: var(--c4);
+  border: none;
+  outline: none;
+  padding: 10px 24px;
+  border-radius: 50px;
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition: 0.2s;
+}
+
+.servicos .slide-botao:hover {
+  background-color: var(--w);
+}
+
+.servicos .slide-botao#slide-esquerda {
+  left: -92px;
+}
+.servicos .slide-botao#slide-direita {
+  right: -92px;
+}
+
 /* slider */
 .servicos-slider {
   display: grid;
   overflow-x: auto;
+  scrollbar-width: none;
   grid-template-columns: repeat(10, 1fr);
-  gap: 60px;
+  gap: 40px;
 }
 
-.servicos-slider-item {
-  width: 500px;
+/* scrollbar */
+
+.servicos-slider::-webkit-scrollbar {
+  display: none;
 }
+
+.servicos {
+  position: relative;
+}
+
+.servicos .slider-scrollbar {
+  height: 24px;
+  width: 100%;
+  /* background-color: #319ec4; */
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  display: flex;
+  align-items: end;
+}
+
+.slider-scrollbar .scrollbar-track {
+  height: 8px;
+  width: 100%;
+  background-color: #d9d9d9;
+  position: relative;
+}
+
+.slider-scrollbar .scrollbar-thumb {
+  position: absolute;
+  height: 100%;
+  width: 15%;
+  background-color: #319ec4;
+}
+
+/* para remover o botão da esquerda no começo 14:00 */
+/* parei em 18:24, falta deixar responsivo */
