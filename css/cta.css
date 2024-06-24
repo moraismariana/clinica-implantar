@@ -1,0 +1,33 @@
+/* CTA 1 */
+
+.cta-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: end;
+}
+
+.cta-1-info {
+  background-color: var(--w);
+  padding: 40px 60px;
+  position: relative;
+  /* left: -120px; */
+}
+.cta-1 .titulo2 {
+  margin-bottom: 12px;
+}
+.cta-1 .texto2 {
+  margin-bottom: 28px;
+  text-transform: uppercase;
+  max-width: 28ch;
+}
+
+.botao-cta {
+  display: block;
+  max-width: fit-content;
+  text-transform: uppercase;
+  background-color: #78abbd;
+  color: var(--w);
+  padding: 16px 24px;
+  font-size: 20px;
+}

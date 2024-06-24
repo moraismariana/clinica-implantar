@@ -1,0 +1,27 @@
+.profissionais {
+  margin-bottom: 120px;
+}
+
+.profissionais .titulo2 {
+  max-width: 40ch;
+  margin-bottom: 80px;
+}
+
+.profissionais-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 52px;
+}
+
+.profissionais-dentista {
+  position: relative;
+}
+
+.dentista-descricao {
+  position: absolute;
+  bottom: 40px;
+  left: -40px;
+  padding: 20px 40px;
+  max-width: 400px;
+  background-color: var(--c1);
+}
