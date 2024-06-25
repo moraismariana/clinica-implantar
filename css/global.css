@@ -1,6 +1,7 @@
 body {
   background-color: var(--c4);
   padding-bottom: 400px;
+  overflow-x: hidden;
 }
 
 /* reset / deficições iniciais */

@@ -1,0 +1,34 @@
+.depoimentos-info {
+  margin-bottom: 80px;
+}
+
+.depoimentos-info .titulo2 {
+  margin-bottom: 12px;
+}
+
+.depoimentos-info .texto2 {
+  text-transform: uppercase;
+}
+
+.depoimentos-slider-item {
+  background-color: var(--w);
+  width: 440px;
+  padding: 40px 60px;
+}
+
+.cliente-info {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.cliente-info .titulo3 {
+  margin-top: 12px;
+}
+
+.cliente-info > img {
+  width: 80px;
+  object-fit: cover;
+  border-radius: 80px;
+}

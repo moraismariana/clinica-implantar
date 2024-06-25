@@ -1,0 +1,25 @@
+.antes-depois {
+  margin-bottom: 120px;
+}
+
+.antes-depois .titulo2 {
+  margin-bottom: 80px;
+}
+
+.antes-depois img {
+  object-fit: cover;
+  width: max-content;
+}
+
+.primeira-linha {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.segunda-linha {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+}

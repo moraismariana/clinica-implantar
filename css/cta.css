@@ -1,18 +1,30 @@
 /* CTA 1 */
 
-.cta-1 {
+/* .cta-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: end;
+} */
+
+.cta-1 {
+  margin-bottom: 384px;
+  /* 44 (imagem) + 220 (distancia top) + 120 (margin-bottom) */
+}
+
+.cta-1 img {
+  position: absolute;
 }
 
 .cta-1-info {
   background-color: var(--w);
-  padding: 40px 60px;
+  padding: 40px 800px 40px 60px;
   position: relative;
-  /* left: -120px; */
+  left: 540px;
+  top: 220px;
+  width: max-content;
 }
+
 .cta-1 .titulo2 {
   margin-bottom: 12px;
 }
