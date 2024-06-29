@@ -1,4 +1,4 @@
-// SLIDER
+// SLIDER SERVIÇOS
 const initSlider = () => {
   const servicosSlider = document.querySelector(".servicos .servicos-slider");
   const slideButtons = document.querySelectorAll(".servicos .slide-botao");
@@ -30,3 +30,25 @@ const initSlider = () => {
 };
 
 window.addEventListener("load", initSlider);
+
+// SLIDER DEPOIMENTOS
+
+const initSlider_2 = () => {
+  const depoimentosSlider = document.querySelector(
+    ".depoimentos .depoimentos-slider"
+  );
+  const slideButtons_2 = document.querySelectorAll(".depoimentos .slide-botao");
+  const maxScrollLeft =
+    depoimentosSlider.scrollWidth - depoimentosSlider.clientWidth;
+
+  // arrastar slide a partir do clique no botão
+  slideButtons_2.forEach((button) => {
+    button.addEventListener("click", () => {
+      const direction = button.id === "slide-esquerda" ? -1 : 0.65;
+      const scrollAmount = depoimentosSlider.clientWidth * direction;
+      depoimentosSlider.scrollBy({ left: scrollAmount, behavior: "smooth" });
+    });
+  });
+};
+
+window.addEventListener("load", initSlider_2);

@@ -1,0 +1,29 @@
+.footer-bg {
+  background-color: var(--c1);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-info {
+  display: flex;
+  gap: 80px;
+}
+
+.footer-texto {
+  color: #cecac8;
+  max-width: 28ch;
+  text-align: end;
+}
+
+.footer-secao {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: end;
+}

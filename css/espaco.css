@@ -1,0 +1,35 @@
+.espaco-info {
+  background-color: var(--w);
+  padding: 40px 80px 40px 1500px;
+  width: max-content;
+  position: relative;
+  top: 260px;
+  right: 840px;
+}
+
+.espaco .titulo2 {
+  margin-bottom: 12px;
+}
+
+.espaco .texto2 {
+  max-width: 32ch;
+}
+
+.espaco {
+  position: relative;
+  /* 260px + 80px */
+  margin-bottom: 380px;
+}
+
+.espaco-localizacao {
+  position: absolute;
+  top: 0;
+}
+
+.espaco-endereco {
+  position: absolute;
+  bottom: 32px;
+  left: -32px;
+  background-color: var(--c1);
+  padding: 20px 40px;
+}

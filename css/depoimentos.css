@@ -1,3 +1,4 @@
+/* configs gerais */
 .depoimentos-info {
   margin-bottom: 80px;
 }
@@ -13,6 +14,7 @@
 .depoimentos-slider-item {
   background-color: var(--w);
   width: 440px;
+  height: max-content;
   padding: 40px 60px;
 }
 
@@ -31,4 +33,43 @@
   width: 80px;
   object-fit: cover;
   border-radius: 80px;
+}
+
+/* botões slider */
+.depoimentos {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.depoimentos .slide-botao {
+  position: absolute;
+  top: 60%;
+  background-color: var(--c4);
+  border: none;
+  outline: none;
+  padding: 10px 24px;
+  border-radius: 50px;
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition: 0.2s;
+}
+
+.depoimentos .slide-botao:hover {
+  background-color: var(--w);
+}
+
+.depoimentos .slide-botao#slide-esquerda {
+  left: -92px;
+}
+.depoimentos .slide-botao#slide-direita {
+  right: -92px;
+}
+
+/* slider */
+.depoimentos-slider {
+  display: grid;
+  overflow-x: auto;
+  scrollbar-width: none;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 24px;
 }

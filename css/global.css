@@ -1,6 +1,5 @@
 body {
   background-color: var(--c4);
-  padding-bottom: 400px;
   overflow-x: hidden;
 }
 
@@ -97,4 +96,8 @@ img {
 
 .texto2 {
   font-size: 20px;
+}
+
+.upper {
+  text-transform: uppercase;
 }

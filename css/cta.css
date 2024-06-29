@@ -1,12 +1,5 @@
 /* CTA 1 */
 
-/* .cta-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: end;
-} */
-
 .cta-1 {
   margin-bottom: 384px;
   /* 44 (imagem) + 220 (distancia top) + 120 (margin-bottom) */
@@ -42,4 +35,33 @@
   color: var(--w);
   padding: 16px 24px;
   font-size: 20px;
+}
+
+/* CTA 2 */
+.cta-2 {
+  position: relative;
+  /* 260 + 120 de margin bottom */
+  margin-bottom: 380px;
+}
+
+.cta-2 img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.cta-2-info {
+  background-color: var(--w);
+  padding: 40px 1800px 40px 60px;
+  width: max-content;
+  position: relative;
+  top: 260px;
+}
+
+.cta-2 .titulo2 {
+  margin-bottom: 12px;
+}
+.cta-2 .texto2 {
+  margin-bottom: 28px;
+  max-width: 28ch;
 }
