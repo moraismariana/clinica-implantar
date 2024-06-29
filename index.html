@@ -20,20 +20,38 @@
 
 <body>
     <div class="intro-bg">
-        <header class="header container">
-            <a href="./">
-                <img src="./img/logo-header.png" alt="Clínica Implantar - Odontologia Humanizada">
-            </a>
-            <nav aria-label="primaria">
-                <ul class="header-nav w">
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Equipe</a></li>
-                    <li><a href="">Clientes</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
+        <div class="header-bg">
+            <header class="container">
+                <div class="header">
+                    <a href="./">
+                        <img src="./img/logo-header.png" alt="Clínica Implantar - Odontologia Humanizada">
+                    </a>
+                    <nav class="header-nav" aria-label="primaria">
+                        <ul class="header-nav-lista w">
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#servicos">Serviços</a></li>
+                            <li><a href="#equipe">Equipe</a></li>
+                            <li><a href="#clientes">Clientes</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+
+                        <div class="mobile-menu-icon">
+                            <button onclick="menuShow() "><img class="icon" src="./img/menu-mobile.svg" alt="Menu Mobile"></button>
+                        </div>
+                    </nav>
+                </div>
+        </div>
+
+        <div class="mobile-menu">
+            <ul class="mobile-menu-lista">
+                <li><a href="#">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            </header>
+        </div>
 
         <article class="intro container">
             <h1 class="titulo1 w">Já ouviu falar sobre odontologia humanizada?</h1>
@@ -42,7 +60,7 @@
     </div>
 
     <div class="container">
-        <section class="servicos">
+        <section id="servicos" class="servicos">
             <h2 class="titulo2 c2">Conheça os nossos serviços:</h2>
             <button id="slide-esquerda" class="slide-botao">
                 <img src="./img/seta-esquerda.svg" alt="Seta para esquerda">
@@ -100,7 +118,7 @@
         </section>
     </div>
 
-    <section class="profissionais container">
+    <section id="equipe" class="profissionais container">
         <h2 class="titulo2 c2">Um bom sorriso começa com os melhores profissionais</h2>
         <div class="profissionais-grid">
             <div class="profissionais-dentista">
@@ -130,7 +148,7 @@
     </section>
 
     <div class="container">
-        <section class="antes-depois">
+        <section id="clientes" class="antes-depois">
             <h2 class="titulo2 c2">Antes e depois dos nossos clientes</h2>
             <div class="primeira-linha">
                 <div class="img1"></div>
@@ -262,7 +280,7 @@
         </section>
     </div>
 
-    <section class="cta-2 container">
+    <section id="contato" class="cta-2 container">
         <div class="cta-2-info">
             <h2 class="titulo2 c2">Entre em contato</h2>
             <p class="texto2 c3">Não espere mais para ter o sorriso dos seus sonhos!</p>
@@ -303,11 +321,11 @@
                     <p class="texto2 footer-texto">Brasília - DF - 71950-904</p>
                 </div>
                 <div class="footer-secao">
-                    <a href="" class="texto2 w upper">Início</a>
-                    <a href="" class="texto2 w upper">Serviços</a>
-                    <a href="" class="texto2 w upper">Equipe</a>
-                    <a href="" class="texto2 w upper">Clientes</a>
-                    <a href="" class="texto2 w upper">Contato</a>
+                    <a href="#" class="texto2 w upper">Início</a>
+                    <a href="#servicos" class="texto2 w upper">Serviços</a>
+                    <a href="#equipe" class="texto2 w upper">Equipe</a>
+                    <a href="#clientes" class="texto2 w upper">Clientes</a>
+                    <a href="#contato" class="texto2 w upper">Contato</a>
                 </div>
             </div>
         </footer>

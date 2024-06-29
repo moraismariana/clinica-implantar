@@ -52,3 +52,12 @@ const initSlider_2 = () => {
 };
 
 window.addEventListener("load", initSlider_2);
+
+// MENU MOBILE
+
+function menuShow() {
+  let menuMobile = document.querySelector(".mobile-menu");
+  let header = document.querySelector(".header-bg");
+  menuMobile.classList.toggle("open");
+  header.classList.toggle("bg-c2");
+}
