@@ -1,3 +1,4 @@
+/* configs gerais */
 .antes-depois {
   margin-bottom: 120px;
 }
@@ -6,11 +7,12 @@
   margin-bottom: 80px;
 }
 
-.antes-depois img {
+/* .antes-depois img {
   object-fit: cover;
   width: max-content;
-}
+} */
 
+/* grid */
 .primeira-linha {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -22,4 +24,114 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 40px;
+}
+
+/* imagens */
+.img1 {
+  width: 620px;
+  height: 380px;
+  background-image: url("../img/antes-depois/img1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.img2 {
+  width: 500px;
+  height: 380px;
+  background-image: url("../img/antes-depois/img2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.img3 {
+  width: 500px;
+  height: 380px;
+  background-image: url("../img/antes-depois/img3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.img4 {
+  width: 620px;
+  height: 380px;
+  background-image: url("../img/antes-depois/img4.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* keyframes (animação) */
+@keyframes transicao1 {
+  5% {
+    background-image: url("../img/antes-depois/antes1.png");
+  }
+  25% {
+    background-image: url("../img/antes-depois/antes1.png");
+  }
+  40% {
+    background-image: url("../img/antes-depois/depois1.png");
+  }
+  90% {
+    background-image: url("../img/antes-depois/depois1.png");
+  }
+}
+
+@keyframes transicao2 {
+  5% {
+    background-image: url("../img/antes-depois/antes2.png");
+  }
+  25% {
+    background-image: url("../img/antes-depois/antes2.png");
+  }
+  40% {
+    background-image: url("../img/antes-depois/depois2.png");
+  }
+  90% {
+    background-image: url("../img/antes-depois/depois2.png");
+  }
+}
+@keyframes transicao3 {
+  5% {
+    background-image: url("../img/antes-depois/antes3.png");
+  }
+  25% {
+    background-image: url("../img/antes-depois/antes3.png");
+  }
+  40% {
+    background-image: url("../img/antes-depois/depois3.png");
+  }
+  90% {
+    background-image: url("../img/antes-depois/depois3.png");
+  }
+}
+@keyframes transicao4 {
+  5% {
+    background-image: url("../img/antes-depois/antes4.png");
+  }
+  25% {
+    background-image: url("../img/antes-depois/antes4.png");
+  }
+  40% {
+    background-image: url("../img/antes-depois/depois4.png");
+  }
+  90% {
+    background-image: url("../img/antes-depois/depois4.png");
+  }
+}
+
+/* hover */
+.img1:hover {
+  animation-name: transicao1;
+  animation-duration: 8s;
+}
+.img2:hover {
+  animation-name: transicao2;
+  animation-duration: 8s;
+}
+.img3:hover {
+  animation-name: transicao3;
+  animation-duration: 8s;
+}
+.img4:hover {
+  animation-name: transicao4;
+  animation-duration: 8s;
 }
