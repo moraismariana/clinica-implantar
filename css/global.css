@@ -121,3 +121,15 @@ img {
     font-size: 1.5rem;
   }
 }
+
+@media (max-width: 800px) {
+  .titulo1 {
+    font-size: 2.25rem;
+  }
+  .titulo2 {
+    font-size: 1.75rem;
+  }
+  .titulo3 {
+    font-size: 1.5rem;
+  }
+}
