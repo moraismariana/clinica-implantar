@@ -48,11 +48,17 @@
     padding: 20px 40px;
     left: -40px;
   }
-  .intro {
-    padding-top: 100px;
-    padding-bottom: 200px;
-  }
   .intro-bg {
-    background-position: -408px;
+    background-position: -480px;
+  }
+  .intro .titulo1 {
+    padding-bottom: 40px;
+    max-width: 19ch;
+  }
+}
+
+@media (max-width: 460px) {
+  .intro-bg {
+    background-position: -520px;
   }
 }

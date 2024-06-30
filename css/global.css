@@ -142,16 +142,13 @@ img {
 
 @media (max-width: 620px) {
   .titulo1 {
-    font-size: 1.5rem;
-  }
-  .texto1 {
-    font-size: 1rem;
+    font-size: 2.125rem;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 428px) {
   .titulo1 {
-    font-size: 1.45rem;
+    font-size: 1.75rem;
     letter-spacing: 0;
   }
   .texto1 {
@@ -159,8 +156,8 @@ img {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 360px) {
   .titulo1 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
