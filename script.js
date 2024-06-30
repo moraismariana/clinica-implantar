@@ -61,3 +61,9 @@ function menuShow() {
   menuMobile.classList.toggle("open");
   header.classList.toggle("bg-c2");
 }
+
+document.querySelectorAll(".mobile-menu a").forEach((link) => {
+  link.addEventListener("click", function () {
+    menuShow(); // Esconde o menu quando um link é clicado
+  });
+});

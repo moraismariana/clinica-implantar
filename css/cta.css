@@ -1,8 +1,8 @@
 /* CTA 1 */
 
 .cta-1 {
-  margin-bottom: 384px;
-  /* 44 (imagem) + 220 (distancia top) + 120 (margin-bottom) */
+  margin-bottom: 344px;
+  /* 44 (imagem) + 220 (distancia top) + 80 (margin-bottom) */
 }
 
 .cta-1 img {

@@ -1,7 +1,12 @@
+.logo-header-2 {
+  display: none;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .header-nav {
@@ -73,11 +78,21 @@
   transition: background-color 0.6s ease;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 1052px) {
   .header-nav-lista {
     display: none;
   }
   .mobile-menu-icon button {
     display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo-header-2 {
+    display: block;
+    margin-top: 8px;
+  }
+  .logo-header-1 {
+    display: none;
   }
 }

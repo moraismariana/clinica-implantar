@@ -73,3 +73,9 @@
   grid-template-columns: repeat(10, 1fr);
   gap: 24px;
 }
+
+@media (max-width: 1023px) {
+  .depoimentos .slide-botao {
+    display: none !important;
+  }
+}
