@@ -120,6 +120,9 @@ img {
   .titulo3 {
     font-size: 1.5rem;
   }
+  .texto1 {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -131,5 +134,33 @@ img {
   }
   .titulo3 {
     font-size: 1.5rem;
+  }
+  .texto1 {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .titulo1 {
+    font-size: 1.5rem;
+  }
+  .texto1 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .titulo1 {
+    font-size: 1.45rem;
+    letter-spacing: 0;
+  }
+  .texto1 {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .titulo1 {
+    font-size: 1.25rem;
   }
 }

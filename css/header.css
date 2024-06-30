@@ -54,6 +54,7 @@
   right: 0;
   top: 88px;
   width: 100%;
+  z-index: 1;
 }
 
 .mobile-menu a {
@@ -90,7 +91,8 @@
 @media (max-width: 600px) {
   .logo-header-2 {
     display: block;
-    margin-top: 8px;
+    margin-top: 7px;
+    margin-bottom: 7px;
   }
   .logo-header-1 {
     display: none;
