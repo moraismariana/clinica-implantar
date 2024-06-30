@@ -44,12 +44,16 @@
 }
 
 @media (max-width: 620px) {
+  .intro {
+    padding-top: 160px;
+    padding-bottom: 220px;
+  }
   .intro .texto1 {
     padding: 20px 40px;
     left: -40px;
   }
   .intro-bg {
-    background-position: -480px;
+    background-position: -516px;
   }
   .intro .titulo1 {
     padding-bottom: 40px;
@@ -59,6 +63,6 @@
 
 @media (max-width: 460px) {
   .intro-bg {
-    background-position: -520px;
+    background-position: -560px;
   }
 }
