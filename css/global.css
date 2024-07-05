@@ -110,7 +110,7 @@ img {
 }
 
 /* tipografia responsiva */
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
   .titulo1 {
     font-size: 2.75rem;
   }
@@ -130,10 +130,10 @@ img {
     font-size: 2.25rem;
   }
   .titulo2 {
-    font-size: 1.75rem;
+    font-size: 1.65rem;
   }
   .titulo3 {
-    font-size: 1.5rem;
+    font-size: 1.325rem;
   }
   .texto1 {
     font-size: 1.125rem;
@@ -151,7 +151,8 @@ img {
     font-size: 1.75rem;
     letter-spacing: 0;
   }
-  .texto1 {
+  .texto1,
+  .texto2 {
     font-size: 0.95rem;
   }
 }
@@ -159,5 +160,8 @@ img {
 @media (max-width: 360px) {
   .titulo1 {
     font-size: 1.5rem;
+  }
+  .titulo2 {
+    font-size: 1.25rem;
   }
 }

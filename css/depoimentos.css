@@ -7,10 +7,6 @@
   margin-bottom: 12px;
 }
 
-.depoimentos-info .texto2 {
-  text-transform: uppercase;
-}
-
 .depoimentos-slider-item {
   background-color: var(--w);
   width: 440px;
