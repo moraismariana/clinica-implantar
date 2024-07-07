@@ -123,6 +123,9 @@ img {
   .texto1 {
     font-size: 1.25rem;
   }
+  .texto2 {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -130,12 +133,15 @@ img {
     font-size: 2.25rem;
   }
   .titulo2 {
-    font-size: 1.65rem;
+    font-size: 1.75rem;
   }
   .titulo3 {
     font-size: 1.325rem;
   }
   .texto1 {
+    font-size: 1.125rem;
+  }
+  .texto2 {
     font-size: 1.125rem;
   }
 }
@@ -160,8 +166,5 @@ img {
 @media (max-width: 360px) {
   .titulo1 {
     font-size: 1.5rem;
-  }
-  .titulo2 {
-    font-size: 1.25rem;
   }
 }

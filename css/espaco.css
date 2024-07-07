@@ -3,7 +3,7 @@
   padding: 40px 80px 40px 1500px;
   width: max-content;
   position: relative;
-  top: 260px;
+  top: 273px;
   right: 840px;
 }
 
@@ -26,10 +26,32 @@
   top: 0;
 }
 
+.espaco-localizacao img {
+  position: relative;
+  left: 60px;
+  width: 540px;
+  height: 460px;
+  object-fit: cover;
+}
+
 .espaco-endereco {
   position: absolute;
   bottom: 32px;
-  left: -32px;
+  left: 24px;
   background-color: var(--c1);
   padding: 20px 40px;
+}
+
+@media (max-width: 1200px) {
+  .espaco-info {
+    padding: 40px 20px 40px 680px;
+    left: -42px;
+  }
+  .espaco-localizacao img {
+    width: 520px;
+    height: 420px;
+  }
+  .espaco-info {
+    top: 244px;
+  }
 }

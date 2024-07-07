@@ -75,3 +75,72 @@
     display: none !important;
   }
 }
+
+/* responsividade */
+
+.container-depoimentos {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* responsividade */
+@media (max-width: 1380px) {
+  .container-depoimentos {
+    max-width: 1080px;
+  }
+  .depoimentos-slider-item {
+    width: 400px;
+  }
+  .depoimentos .texto2 {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container-depoimentos {
+    max-width: 920px;
+  }
+  .depoimentos {
+    padding: 40px 60px 60px 60px;
+  }
+  .depoimentos-slider-item {
+    width: 360px;
+  }
+  .depoimentos .titulo2 {
+    margin-bottom: 24px;
+  }
+  .depoimentos .titulo3 {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .depoimentos .slide-botao {
+    display: none !important;
+  }
+  .container-depoimentos {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .depoimentos-slider-item {
+    width: 280px;
+  }
+  .depoimentos .titulo2 {
+    font-size: 1.65rem;
+    letter-spacing: 0;
+  }
+  .depoimentos .texto2 {
+    font-size: 0.985rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .depoimentos {
+    padding: 32px;
+  }
+}
