@@ -26,6 +26,16 @@
 }
 
 /* menu mobile */
+/* Container do menu mobile para controle de overflow */
+.mobile-menu-container {
+  overflow: hidden; /* Esconde o conteúdo que ultrapassa a largura do contêiner */
+  width: 100%;
+  position: absolute; /* Garante que o contêiner siga o fluxo do documento */
+  top: 88px; /* Ajustar conforme necessário */
+  z-index: 1;
+}
+
+/* Estilo do menu mobile */
 .mobile-menu li,
 .mobile-menu ul {
   max-width: fit-content;
@@ -50,11 +60,7 @@
   padding-bottom: 40px;
   text-transform: uppercase;
   color: var(--w);
-  position: absolute;
-  right: 0;
-  top: 88px;
   width: 100%;
-  z-index: 1;
 }
 
 .mobile-menu a {
