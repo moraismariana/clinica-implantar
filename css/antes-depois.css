@@ -227,6 +227,9 @@
   .antes-depois-container {
     max-width: 580px;
   }
+  .antes-depois .titulo2 {
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 620px) {

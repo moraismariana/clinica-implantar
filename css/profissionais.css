@@ -37,6 +37,12 @@
     padding: 16px 20px;
     left: -20px;
   }
+  .profissionais .titulo2 {
+    margin-bottom: 60px;
+  }
+  .profissionais {
+    margin-bottom: 80px;
+  }
 }
 
 @media (max-width: 620px) {
