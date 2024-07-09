@@ -157,18 +157,21 @@
 }
 
 @media (max-width: 800px) {
-  .servicos-slider-item {
-    width: 280px;
+  .container-servicos {
+    padding: 0;
   }
-  .servicos .titulo2 {
-    font-size: 1.65rem;
-    letter-spacing: 0;
+  .servicos {
+    top: 0px;
+    margin-bottom: 60px;
+  }
+  .servicos-slider-item {
+    width: 340px;
   }
   .servicos .texto2 {
     font-size: 0.985rem;
   }
   .servicos {
-    padding: 32px 48px 48px 48px;
+    padding: 40px 20px 40px 20px;
   }
   .servicos .titulo3 {
     gap: 16px;
@@ -176,13 +179,10 @@
   .servicos .texto2 {
     margin-left: 36px;
   }
-  .servicos {
-    top: -48px;
-  }
 }
 
-@media (max-width: 360px) {
-  .servicos {
-    padding: 32px;
+@media (max-width: 380px) {
+  .servicos-slider-item {
+    width: 300px;
   }
 }
