@@ -230,6 +230,9 @@
   .antes-depois .titulo2 {
     margin-bottom: 60px;
   }
+  .antes-depois {
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 620px) {
