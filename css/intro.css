@@ -1,7 +1,8 @@
 .intro-bg {
-  background: url("../img/foto-intro.png");
+  background: url("../img/foto-intro-pc.png");
   background-size: cover;
   background-position: center;
+  /* background-position: 100px; */
 }
 
 .intro {
@@ -45,24 +46,20 @@
 
 @media (max-width: 620px) {
   .intro {
-    padding-top: 160px;
-    padding-bottom: 220px;
+    padding-top: 320px;
+    padding-bottom: 60px;
   }
   .intro .texto1 {
     padding: 20px 40px;
     left: -40px;
   }
   .intro-bg {
-    background-position: -516px;
+    background: url("../img/foto-intro-mobile.png");
+    background-size: cover;
+    background-position: center;
   }
   .intro .titulo1 {
     padding-bottom: 40px;
     max-width: 19ch;
-  }
-}
-
-@media (max-width: 460px) {
-  .intro-bg {
-    background-position: -560px;
   }
 }
