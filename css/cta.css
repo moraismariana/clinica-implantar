@@ -103,6 +103,7 @@
 @media (max-width: 620px) {
   .cta-1-info {
     width: fit-content;
+    padding: 40px;
   }
 }
 
@@ -183,8 +184,8 @@
 
   .cta-2 {
     padding-bottom: 60px;
-    /* 260 + 60 de margin bottom */
-    margin-bottom: 320px;
+    margin-bottom: 300px;
+    /* 220 (distancia top) + 80 (margin-bottom) */
   }
 
   .cta-2-info {
@@ -193,13 +194,14 @@
     margin-right: auto;
     padding: 40px 40px 40px 60px;
     left: 00px;
-    top: 300px;
+    top: 280px;
   }
 }
 
 @media (max-width: 620px) {
   .cta-2-info {
     width: fit-content;
+    padding: 40px;
   }
   .cta-2 img {
     display: none;

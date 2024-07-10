@@ -4,7 +4,7 @@
   width: max-content;
   position: relative;
   top: 273px;
-  right: 840px;
+  right: 900px;
 }
 
 .espaco .titulo2 {
@@ -51,7 +51,7 @@
 @media (max-width: 1200px) {
   .espaco-info {
     padding: 40px 20px 40px 680px;
-    left: -42px;
+    left: -82px;
   }
   .espaco-localizacao img {
     width: 520px;
@@ -69,7 +69,7 @@
   }
   .espaco-info {
     padding: 40px 20px 40px 680px;
-    left: -142px;
+    left: -182px;
   }
 }
 
@@ -105,5 +105,6 @@
 @media (max-width: 620px) {
   .espaco-info {
     width: fit-content;
+    padding: 40px 0px 20px 0px;
   }
 }
