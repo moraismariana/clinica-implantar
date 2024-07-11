@@ -209,3 +209,9 @@
     height: 400px;
   }
 }
+
+@media (max-width: 380px) {
+  .cta-2-info .titulo2 {
+    font-size: 1.35rem;
+  }
+}

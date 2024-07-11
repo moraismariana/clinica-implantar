@@ -82,3 +82,26 @@ document.addEventListener("DOMContentLoaded", function () {
       "mailto:clinicaimplantar@email.com?subject=Contato%20para%20consulta&body=Olá%2C%20gostaria%20de%20marcar%20uma%20consulta"; // Endereço de e-mail
   }
 });
+
+// CARREGAMENTO DE IMAGENS
+window.addEventListener("load", function () {
+  const images = [
+    "./img/antes-depois/img1.png",
+    "./img/antes-depois/antes1.png",
+    "./img/antes-depois/depois1.png",
+    "./img/antes-depois/img2.png",
+    "./img/antes-depois/antes2.png",
+    "./img/antes-depois/depois2.png",
+    "./img/antes-depois/img3.png",
+    "./img/antes-depois/antes3.png",
+    "./img/antes-depois/depois3.png",
+    "./img/antes-depois/img3.png",
+    "./img/antes-depois/antes3.png",
+    "./img/antes-depois/depois3.png",
+  ];
+
+  images.forEach(function (imageSrc) {
+    const img = new Image();
+    img.src = imageSrc;
+  });
+});
