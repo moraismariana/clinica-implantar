@@ -67,3 +67,18 @@ document.querySelectorAll(".mobile-menu a").forEach((link) => {
     menuShow(); // Esconde o menu quando um link é clicado
   });
 });
+
+// CONTATO
+
+document.addEventListener("DOMContentLoaded", function () {
+  var contactLink = document.getElementById("contact-link");
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+  // Detecta dispositivos móveis
+  if (/android|iPad|iPhone|iPod/i.test(userAgent) && !window.MSStream) {
+    contactLink.href = "tel:+5561996469365"; // Número de telefone
+  } else {
+    contactLink.href =
+      "mailto:clinicaimplantar@email.com?subject=Contato%20para%20consulta&body=Olá%2C%20gostaria%20de%20marcar%20uma%20consulta"; // Endereço de e-mail
+  }
+});
