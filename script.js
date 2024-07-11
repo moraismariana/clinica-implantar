@@ -98,6 +98,9 @@ window.addEventListener("load", function () {
     "./img/antes-depois/img3.png",
     "./img/antes-depois/antes3.png",
     "./img/antes-depois/depois3.png",
+    "./img/antes-depois/img4.png",
+    "./img/antes-depois/antes4.png",
+    "./img/antes-depois/depois4.png",
   ];
 
   images.forEach(function (imageSrc) {
