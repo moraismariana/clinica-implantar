@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Detecta dispositivos móveis
   if (/android|iPad|iPhone|iPod/i.test(userAgent) && !window.MSStream) {
-    contactLink.href = "tel:+5561996469365"; // Número de telefone
+    contactLink.href = "tel:6135730020"; // Número de telefone
   } else {
     contactLink.href =
       "mailto:clinicaimplantar@email.com?subject=Contato%20para%20consulta&body=Olá%2C%20gostaria%20de%20marcar%20uma%20consulta"; // Endereço de e-mail
