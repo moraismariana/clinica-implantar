@@ -1,0 +1,106 @@
+.logo-header-2 {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-lista {
+  display: flex;
+  gap: 24px;
+}
+
+.header-nav-lista a {
+  font-size: 1.125rem;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+/* menu mobile */
+/* Container do menu mobile para controle de overflow */
+.mobile-menu-container {
+  overflow: hidden; /* Esconde o conteúdo que ultrapassa a largura do contêiner */
+  width: 100%;
+  position: absolute; /* Garante que o contêiner siga o fluxo do documento */
+  top: 88px; /* Ajustar conforme necessário */
+  z-index: 1;
+}
+
+/* Estilo do menu mobile */
+.mobile-menu li,
+.mobile-menu ul {
+  max-width: fit-content;
+}
+
+.mobile-menu-lista {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+}
+
+.mobile-menu {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  background-color: var(--c2);
+  font-size: 1.125rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  color: var(--w);
+  width: 100%;
+}
+
+.mobile-menu a {
+  padding: 12px 100px;
+}
+
+.mobile-menu-icon button {
+  display: none;
+  border: none;
+  padding: 10px;
+  background: none;
+  cursor: pointer;
+}
+
+.open {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.bg-c2 {
+  background-color: var(--c2);
+  transition: background-color 0.6s ease;
+}
+
+@media (max-width: 1052px) {
+  .header-nav-lista {
+    display: none;
+  }
+  .mobile-menu-icon button {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo-header-2 {
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 8px;
+  }
+  .logo-header-1 {
+    display: none;
+  }
+}

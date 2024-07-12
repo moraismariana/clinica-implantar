@@ -1,0 +1,65 @@
+.intro-bg {
+  background: url("../img/foto-intro-pc.png");
+  background-size: cover;
+  background-position: center;
+  /* background-position: 100px; */
+}
+
+.intro {
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.intro .titulo1 {
+  padding-bottom: 60px;
+  max-width: 30ch;
+}
+
+.intro .texto1 {
+  background-color: var(--c1);
+  max-width: 26ch;
+  padding: 40px 80px 40px 500px;
+  position: relative;
+  left: -500px;
+  z-index: 0;
+}
+
+@media (max-width: 1380px) {
+  .intro {
+    padding-top: 140px;
+    padding-bottom: 200px;
+  }
+  .intro .titulo1 {
+    padding-bottom: 40px;
+  }
+  .intro .texto1 {
+    padding: 28px 80px 28px 500px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .intro .texto1 {
+    padding: 28px 80px;
+    left: -80px;
+  }
+}
+
+@media (max-width: 620px) {
+  .intro {
+    padding-top: 320px;
+    padding-bottom: 60px;
+  }
+  .intro .texto1 {
+    padding: 20px 40px;
+    left: -40px;
+  }
+  .intro-bg {
+    background: url("../img/foto-intro-mobile.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .intro .titulo1 {
+    padding-bottom: 40px;
+    max-width: 19ch;
+  }
+}
