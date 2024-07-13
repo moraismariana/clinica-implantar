@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
     contactLink.href = "tel:6135730020"; // Número de telefone
   } else {
     contactLink.href =
-      "mailto:clinicaimplantar@email.com?subject=Contato%20para%20consulta&body=Olá%2C%20gostaria%20de%20marcar%20uma%20consulta"; // Endereço de e-mail
+      "mailto:clinicaimplantarbsb@gmail.com?subject=Contato%20para%20consulta&body=Olá%2C%20gostaria%20de%20marcar%20uma%20consulta"; // Endereço de e-mail
   }
 });
 
