@@ -11,6 +11,10 @@
   display: none;
 }
 
+.antes-depois-info h2 {
+  text-align: center;
+}
+
 /* grid */
 .primeira-linha {
   display: grid;

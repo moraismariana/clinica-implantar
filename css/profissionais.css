@@ -3,17 +3,21 @@
 }
 
 .profissionais .titulo2 {
-  max-width: 40ch;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* max-width: 36ch; */
   margin-bottom: 80px;
 }
 
 .profissionais-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 52px;
 }
 
 .profissionais-dentista {
+  justify-self: center;
   position: relative;
 }
 

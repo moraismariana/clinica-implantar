@@ -1,5 +1,5 @@
 .intro-bg {
-  background: url("../img/foto-intro-pc.png");
+  background: url("../img/foto_intro_pc.webp");
   background-size: cover;
   background-position: center;
   /* background-position: 100px; */
@@ -54,7 +54,7 @@
     left: -40px;
   }
   .intro-bg {
-    background: url("../img/foto-intro-mobile.png");
+    background: url("../img/foto_intro_mobile.webp");
     background-size: cover;
     background-position: center;
   }
