@@ -60,6 +60,26 @@
   }
   .intro .titulo1 {
     padding-bottom: 40px;
-    max-width: 19ch;
+    max-width: 23ch;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro .titulo1 {
+    font-size: 1.75rem;
+    max-width: 23ch;
+  }
+}
+
+@media (max-width: 428px) {
+  .intro .titulo1 {
+    max-width: 22ch;
+  }
+}
+
+@media (max-width: 428px) {
+  .intro .titulo1 {
+    font-size: 1.5rem;
+    max-width: 22ch;
   }
 }
