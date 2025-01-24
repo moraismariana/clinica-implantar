@@ -5,12 +5,12 @@
 
 .depoimentos-info .titulo2 {
   margin-bottom: 12px;
-  text-align: center;
+  /* text-align: center; */
 }
 
-.depoimentos-info .texto2 {
+/* .depoimentos-info .texto2 {
   text-align: center;
-}
+} */
 
 .depoimentos-slider-item {
   background-color: var(--w);

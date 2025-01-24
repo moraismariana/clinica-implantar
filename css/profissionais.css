@@ -1,20 +1,24 @@
 .profissionais {
   margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 52px;
+  align-items: center;
 }
 
 .profissionais .titulo2 {
-  text-align: center;
+  /* text-align: center; */
   margin-left: auto;
   margin-right: auto;
   /* max-width: 36ch; */
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
-.profissionais-grid {
+/* .profissionais-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 52px;
-}
+} */
 
 .profissionais-dentista {
   justify-self: center;
@@ -30,6 +34,12 @@
   background-color: var(--c1);
 }
 
+@media (max-width: 1200px) {
+  .profissionais .titulo2 {
+    margin-bottom: 24px;
+  }
+}
+
 @media (max-width: 800px) {
   .dentista-descricao .titulo3 {
     font-size: 1.125rem;
@@ -41,11 +51,14 @@
     padding: 16px 20px;
     left: -20px;
   }
-  .profissionais .titulo2 {
-    margin-bottom: 60px;
-  }
   .profissionais {
     margin-bottom: 80px;
+    grid-template-columns: 1fr;
+  }
+  .profissionais-dentista {
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

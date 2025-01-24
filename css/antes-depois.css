@@ -8,13 +8,13 @@
 }
 
 .antes-depois-info p {
-  text-align: center;
+  /* text-align: center; */
   display: none;
 }
 
-.antes-depois-info h2 {
+/* .antes-depois-info h2 {
   text-align: center;
-}
+} */
 
 /* grid */
 .primeira-linha {
