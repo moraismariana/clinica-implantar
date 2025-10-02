@@ -34,24 +34,23 @@
   display: block;
   max-width: fit-content;
   text-transform: uppercase;
-  background-color: #78abbd;
+  /* background-color: #78abbd; */
+  background-color: #78bdae;
   color: var(--w);
   padding: 16px 24px;
   font-size: 20px;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 /* .botao-cta:hover {
   background-color: #5c8ea0;
 } */
 
-.botao-cta-2 {
-  background-color: #60b68f;
-  background-color: #78bdae;
-}
-
 .intro .botao-cta {
-  background-color: rgba(120, 171, 189, 0.9);
+  background-color: rgba(120, 189, 174, 0.9);
 }
 
 @media (max-width: 1200px) {
