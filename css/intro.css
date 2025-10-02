@@ -6,12 +6,12 @@
 }
 
 .intro {
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 230px;
+  padding-bottom: 270px;
 }
 
 .intro .titulo1 {
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   max-width: 30ch;
 }
 
@@ -22,6 +22,10 @@
   position: relative;
   left: -500px;
   z-index: 0;
+}
+
+.intro a {
+  margin-top: 40px;
 }
 
 @media (max-width: 1380px) {

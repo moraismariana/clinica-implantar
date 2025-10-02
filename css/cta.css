@@ -38,6 +38,20 @@
   color: var(--w);
   padding: 16px 24px;
   font-size: 20px;
+  transition: 0.3s;
+}
+
+/* .botao-cta:hover {
+  background-color: #5c8ea0;
+} */
+
+.botao-cta-2 {
+  background-color: #60b68f;
+  background-color: #78bdae;
+}
+
+.intro .botao-cta {
+  background-color: rgba(120, 171, 189, 0.9);
 }
 
 @media (max-width: 1200px) {
@@ -96,6 +110,10 @@
   }
   .cta-1 img {
     display: none;
+  }
+  .botao-cta {
+    padding: 14px 20px;
+    font-size: 17px;
   }
 }
 

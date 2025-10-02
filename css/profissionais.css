@@ -20,6 +20,10 @@
   gap: 52px;
 } */
 
+.profissionais a {
+  margin-top: 50px;
+}
+
 .profissionais-dentista {
   justify-self: center;
   position: relative;
@@ -37,6 +41,9 @@
 @media (max-width: 1200px) {
   .profissionais .titulo2 {
     margin-bottom: 24px;
+  }
+  .profissionais a {
+    margin-top: 30px;
   }
 }
 
